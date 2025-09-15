@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch - Your Movie Recommender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-film"></i> CineMatch</h1>
+            <p>Discover your next favorite movie with our personalized recommendations</p>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search for movies...">
+            <button class="btn"><i class="fas fa-search"></i> Search</button>
+        </div>
+        
+        <div class="genre-filter">
+            <button class="genre-btn active">All</button>
+            <button class="genre-btn">Action</button>
+            <button class="genre-btn">Comedy</button>
+            <button class="genre-btn">Drama</button>
+            <button class="genre-btn">Sci-Fi</button>
+            <button class="genre-btn">Horror</button>
+        </div>
+        
+        <section class="recommendation-section">
+            <h2 class="section-title">Recommended For You</h2>
+            <div class="movies-grid" id="recommended-movies">
+                <!-- Movie cards will be generated here -->
+            </div>
+        </section>
+        
+        <section class="recommendation-section">
+            <h2 class="section-title">Top Rated Movies</h2>
+            <div class="movies-grid" id="top-rated-movies">
+                <!-- Movie cards will be generated here -->
+            </div>
+        </section>
+        
+        <div class="view-more">
+            <button class="btn"><i class="fas fa-random"></i> Show More Recommendations</button>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 CineMatch - Movie Recommender System</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
