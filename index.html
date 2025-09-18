@@ -16,16 +16,17 @@
         
         <div class="search-box">
             <input type="text" class="search-input" placeholder="Search for movies...">
-            <button class="btn"><i class="fas fa-search"></i> Search</button>
+            <button class="btn" id="search-btn"><i class="fas fa-search"></i> Search</button>
         </div>
         
-        <div class="genre-filter">
-            <button class="genre-btn active">All</button>
-            <button class="genre-btn">Action</button>
-            <button class="genre-btn">Comedy</button>
-            <button class="genre-btn">Drama</button>
-            <button class="genre-btn">Sci-Fi</button>
-            <button class="genre-btn">Horror</button>
+        <div class="genre-filter" id="genre-filter">
+            <button class="genre-btn active" data-id="all">All</button>
+            <!-- Genre buttons will be populated by JavaScript -->
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading movies...</p>
         </div>
         
         <section class="recommendation-section">
@@ -42,12 +43,19 @@
             </div>
         </section>
         
+        <section class="recommendation-section" id="search-results-section" style="display: none;">
+            <h2 class="section-title">Search Results</h2>
+            <div class="movies-grid" id="search-results">
+                <!-- Search results will be generated here -->
+            </div>
+        </section>
+        
         <div class="view-more">
-            <button class="btn"><i class="fas fa-random"></i> Show More Recommendations</button>
+            <button class="btn" id="load-more-btn"><i class="fas fa-random"></i> Show More Recommendations</button>
         </div>
         
         <footer>
-            <p>&copy; 2025 CineMatch - Movie Recommender System</p>
+            <p>&copy; 2023 CineMatch - Movie Recommender System | Powered by TMDB</p>
         </footer>
     </div>
 
