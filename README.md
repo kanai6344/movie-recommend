@@ -10,3 +10,5 @@ A responsive and interactive movie recommendation web application that helps use
 - Rating System: View IMDb-style ratings for all movies
 - Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
 - Interactive UI: Smooth animations and hover effects for enhanced user experience
+
+#note : Replace 'Public demo key' with your own
