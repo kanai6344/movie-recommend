@@ -8,6 +8,5 @@ A responsive and interactive movie recommendation web application that helps use
 - **Genre Filtering**: Browse movies by specific genres (Action, Comedy, Drama, Sci-Fi, Horror)
 - **Search Functionality**: Find movies by title or genre
 - **Rating System**: View IMDb-style ratings for all movies
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
 #note : Replace 'Public demo key' with your own
